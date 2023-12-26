@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './index.scss';
+import Pickle_springs from '../../assets/images/Pickle_Springs.svg'
 
 const Home = () => {
 
@@ -8,12 +9,20 @@ const Home = () => {
         <div className="container home-page">
             <div className="text-zone">
                 <h1>Hi, <br /> I'm
-                Andrew
+                Andrew</h1>
                 <br />
+                <h2> Web Developer/Designer</h2>
+                <h1>
+                I focus on emphasizing you
                
                 </h1>
-                <h2> Web Developer/Designer</h2>
+               
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
+            </div>
+            <div className='image-container'> 
+           
+
+            
             </div>
         </div>
     );

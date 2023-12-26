@@ -8,6 +8,16 @@
         width: 40%;
         max-height: 90%;
     }
+    .image-container {
+        display: block;
+        position:absolute;
+        left: 55%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30%;
+        max-height: 90%;
+        opacity: .9;
+        }
 
     h1{
         color: #EE4B2B;
@@ -74,5 +84,7 @@
     &:hover{
         background: #ffd700;
         color: #333;
-    }}
+        }
+      
+    }
 }
