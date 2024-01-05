@@ -1,6 +1,6 @@
 import './index.scss'
 
-const Design = () => {
+const DesignGallery = () => {
 
 return(
     
@@ -13,4 +13,4 @@ return(
 
 }
 
-export default Design
+export default DesignGallery
